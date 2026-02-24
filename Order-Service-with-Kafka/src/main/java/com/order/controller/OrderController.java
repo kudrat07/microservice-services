@@ -10,7 +10,6 @@ import com.order.dto.OrderDto;
 @RestController
 @RequestMapping("/order")
 public class OrderController {
-	
 	@PostMapping
 	public ResponseEntity<OrderDto> placeOrder(OrderDto orderDto) {
 		
