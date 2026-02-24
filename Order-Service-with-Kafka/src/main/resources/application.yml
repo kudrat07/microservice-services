@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Order-Service-with-Kafka
+
+  config:
+    import: "configserver:http://localhost:8888"
+
+  profiles:
+    active: qa
